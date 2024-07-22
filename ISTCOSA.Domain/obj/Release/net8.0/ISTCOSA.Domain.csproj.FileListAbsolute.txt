@@ -1,0 +1,39 @@
+D:\code\istcosa\ISTCOSA.Domain\bin\Release\net8.0\ISTCOSA.Domain.deps.json
+D:\code\istcosa\ISTCOSA.Domain\bin\Release\net8.0\ISTCOSA.Domain.dll
+D:\code\istcosa\ISTCOSA.Domain\bin\Release\net8.0\ISTCOSA.Domain.pdb
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.csproj.AssemblyReference.cache
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.AssemblyInfoInputs.cache
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.AssemblyInfo.cs
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.csproj.CoreCompileInputs.cache
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.sourcelink.json
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.dll
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\refint\ISTCOSA.Domain.dll
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.pdb
+D:\code\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ref\ISTCOSA.Domain.dll
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\bin\Release\net8.0\ISTCOSA.Domain.deps.json
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\bin\Release\net8.0\ISTCOSA.Domain.dll
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\bin\Release\net8.0\ISTCOSA.Domain.pdb
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.csproj.AssemblyReference.cache
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.AssemblyInfoInputs.cache
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.AssemblyInfo.cs
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.csproj.CoreCompileInputs.cache
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.sourcelink.json
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.dll
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\refint\ISTCOSA.Domain.dll
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.pdb
+D:\ISTCOSA ne\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ref\ISTCOSA.Domain.dll
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\bin\Release\net8.0\ISTCOSA.Domain.deps.json
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\bin\Release\net8.0\ISTCOSA.Domain.dll
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\bin\Release\net8.0\ISTCOSA.Domain.pdb
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.csproj.AssemblyReference.cache
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.AssemblyInfoInputs.cache
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.AssemblyInfo.cs
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.csproj.CoreCompileInputs.cache
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.sourcelink.json
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.dll
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\refint\ISTCOSA.Domain.dll
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ISTCOSA.Domain.pdb
+D:\My ISTCOSA WEbApi\istcosa\ISTCOSA.Domain\obj\Release\net8.0\ref\ISTCOSA.Domain.dll

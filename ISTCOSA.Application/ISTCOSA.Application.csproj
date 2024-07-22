@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+	  <PackageReference Include="AutoMapper" Version="13.0.1" />
+	  <PackageReference Include="MediatR" Version="12.2.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.4" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.4" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+	  <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+	  <PackageReference Include="SixLabors.ImageSharp" Version="3.1.4" />
+	  <PackageReference Include="System.Drawing.Common" Version="8.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CommandAndQueries\Company\Commands\" />
+    <Folder Include="CommandAndQueries\Industry\Commands\" />
+    <Folder Include="CommandAndQueries\UserProfile\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ISTCOSA.Domain\ISTCOSA.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

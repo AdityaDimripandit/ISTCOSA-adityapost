@@ -1,0 +1,248 @@
+2024-07-18 15:12:09.817 +05:30 [WRN] No store type was specified for the decimal property 'Salary' on entity type 'PostEmployment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-18 15:12:57.476 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-07-18 15:13:41.601 +05:30 [ERR] Old password provided for user 20120007 is incorrect.
+2024-07-18 15:13:47.051 +05:30 [ERR] An unexpected error occurred while handling password reset for user 20120007.
+System.Exception: Old password is incorrect.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 38
+2024-07-18 15:13:47.164 +05:30 [ERR] Unhandled Exception for Request CreateResetPasswordCommand {"UserName":"20120007","oldPassword":"Aman@4","NewPassword":"Aman123@,","Token":"string","$type":"CreateResetPasswordCommand"}
+System.Exception: Old password is incorrect.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 38
+   at ISTCOSA.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2024-07-18 15:14:43.294 +05:30 [ERR] Password reset failed for user 20120007: Invalid token.
+2024-07-18 15:14:51.157 +05:30 [ERR] An unexpected error occurred while handling password reset for user 20120007.
+System.Exception: Password reset failed: Invalid token.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 60
+2024-07-18 15:14:51.217 +05:30 [ERR] Unhandled Exception for Request CreateResetPasswordCommand {"UserName":"20120007","oldPassword":"Aman@4487","NewPassword":"Aman@4444","Token":"string","$type":"CreateResetPasswordCommand"}
+System.Exception: Password reset failed: Invalid token.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 60
+   at ISTCOSA.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2024-07-18 15:15:27.704 +05:30 [WRN] Long Running Request: CreateLoginCommand (653 milliseconds)   {"RollNumber":"20120007","Password":"Aman@4487","$type":"CreateLoginCommand"}
+2024-07-18 15:16:03.061 +05:30 [ERR] Password reset failed for user 20120007: Invalid token.
+2024-07-18 15:16:13.164 +05:30 [ERR] An unexpected error occurred while handling password reset for user 20120007.
+System.Exception: Password reset failed: Invalid token.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 60
+2024-07-18 15:16:13.229 +05:30 [ERR] Unhandled Exception for Request CreateResetPasswordCommand {"UserName":"20120007","oldPassword":"Aman@4487","NewPassword":"Aman@4444","Token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMjAxMjAwMDciLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJTdHVkZW50IiwiZXhwIjoxNzIxMjk3MTI3LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwNjciLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUwNjcifQ.ggAZ-FfzUhBJoJ8z54AtY9pu_gdyh4jDLXalAcWimo8","$type":"CreateResetPasswordCommand"}
+System.Exception: Password reset failed: Invalid token.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 60
+   at ISTCOSA.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2024-07-18 15:17:26.500 +05:30 [ERR] Password reset failed for user 20120007: Invalid token.
+2024-07-18 15:17:26.570 +05:30 [ERR] An unexpected error occurred while handling password reset for user 20120007.
+System.Exception: Password reset failed: Invalid token.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 60
+2024-07-18 15:17:26.628 +05:30 [ERR] Unhandled Exception for Request CreateResetPasswordCommand {"UserName":"20120007","oldPassword":"Aman@4487","NewPassword":"Aman@4444","Token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMjAxMjAwMDciLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJTdHVkZW50IiwiZXhwIjoxNzIxMjk3MTI3LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwNjciLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUwNjcifQ.ggAZ-FfzUhBJoJ8z54AtY9pu_gdyh4jDLXalAcWimo8","$type":"CreateResetPasswordCommand"}
+System.Exception: Password reset failed: Invalid token.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 60
+   at ISTCOSA.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2024-07-18 15:20:32.683 +05:30 [ERR] Password reset failed for user 20120007: Invalid token.
+2024-07-18 15:21:36.172 +05:30 [ERR] An unexpected error occurred while handling password reset for user 20120007.
+System.Exception: Password reset failed: Invalid token.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 60
+2024-07-18 15:21:36.274 +05:30 [ERR] Unhandled Exception for Request CreateResetPasswordCommand {"UserName":"20120007","oldPassword":"Aman@4487","NewPassword":"Aman@4444","Token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMjAxMjAwMDciLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJTdHVkZW50IiwiZXhwIjoxNzIxMjk3Mjk1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwNjciLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUwNjcifQ.a3vZeWL8wplSI9RQG9EPESpxEWZomJRl3pkuv1I5w8A","$type":"CreateResetPasswordCommand"}
+System.Exception: Password reset failed: Invalid token.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Handlers\AccountHandler\CreateResetPasswordCommandHandler.cs:line 60
+   at ISTCOSA.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2024-07-18 15:29:29.390 +05:30 [INF] Password reset successful for user 20120007.
+2024-07-18 15:29:38.499 +05:30 [WRN] Long Running Request: CreateResetPasswordCommand (110817 milliseconds)   {"UserName":"20120007","oldPassword":"Aman@4487","NewPassword":"Aman@4444","Token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMjAxMjAwMDciLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJTdHVkZW50IiwiZXhwIjoxNzIxMjk3ODQ3LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwNjciLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUwNjcifQ.UBKVPjRlqJasZTMfNz0jUza3xQF_yg-JkQ8gBofYPXo","$type":"CreateResetPasswordCommand"}
+2024-07-18 15:29:53.114 +05:30 [ERR] Unhandled Exception for Request CreateLoginCommand {"RollNumber":"20120007","Password":"Aman@4487","$type":"CreateLoginCommand"}
+System.Exception: Invalid username or password.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateLoginCommandHandler.Handle(CreateLoginCommand request, CancellationToken cancellationToken)
+   at ISTCOSA.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+2024-07-18 15:40:23.638 +05:30 [WRN] Long Running Request: CreateLoginCommand (800 milliseconds)   {"RollNumber":"20120007","Password":"Aman@4444","$type":"CreateLoginCommand"}
+2024-07-18 15:41:04.524 +05:30 [ERR] New password and confirm password do not match for user 20120007.
+2024-07-18 15:41:09.880 +05:30 [ERR] An unexpected error occurred while handling password reset for user 20120007.
+System.Exception: New password and confirm password do not match.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken)
+2024-07-18 15:41:09.934 +05:30 [ERR] Unhandled Exception for Request CreateResetPasswordCommand {"UserName":"20120007","oldPassword":"Aman@4444","NewPassword":"Aman@1111","Token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMjAxMjAwMDciLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJTdHVkZW50IiwiZXhwIjoxNzIxMjk4NjIzLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwNjciLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUwNjcifQ.sA9h5yXjPRH_xNnRFw1sEa1zi-d2rXk0cBsbYn5dDKQ","ConfirmPassword":"Aman22","$type":"CreateResetPasswordCommand"}
+System.Exception: New password and confirm password do not match.
+   at ISTCOSA.Infrastructure.Handlers.AccountHandler.CreateResetPasswordCommandHandler.Handle(CreateResetPasswordCommand request, CancellationToken cancellationToken)
+   at ISTCOSA.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+2024-07-18 15:41:51.333 +05:30 [INF] Password reset successful for user 20120007.
+2024-07-18 15:41:54.253 +05:30 [WRN] Long Running Request: CreateResetPasswordCommand (18092 milliseconds)   {"UserName":"20120007","oldPassword":"Aman@4444","NewPassword":"Aman@1111","Token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMjAxMjAwMDciLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJTdHVkZW50IiwiZXhwIjoxNzIxMjk4NjIzLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwNjciLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUwNjcifQ.sA9h5yXjPRH_xNnRFw1sEa1zi-d2rXk0cBsbYn5dDKQ","ConfirmPassword":"Aman@1111","$type":"CreateResetPasswordCommand"}
+2024-07-18 15:53:28.440 +05:30 [WRN] No store type was specified for the decimal property 'Salary' on entity type 'PostEmployment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-07-18 16:35:28.165 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-07-18 16:35:30.221 +05:30 [WRN] Long Running Request: GetAllBusinessQuery (1788 milliseconds)   {"Id":0,"UserId":null,"Title":null,"Company":null,"Contact":null,"Description":null,"Email":null,"PhoneNumber":null,"Images":null,"ImageType":null,"JobDescription":null,"Industry":null,"IndustryId":0,"CreatedDateAndTime":null,"UpdatedDateAndTime":null,"DeletedDateAndTime":null,"$type":"GetAllBusinessQuery"}
+2024-07-18 16:45:21.245 +05:30 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2024-07-18 16:45:30.126 +05:30 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2024-07-18 16:45:30.290 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'ISTCOSA.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.UserPersonalInformation' with unique index 'IX_UserPersonalInformation_UserId'. The duplicate key value is (46a067de-64de-41fa-b934-a4eee884c128).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:73578149-445c-4938-9089-fff4d76ef8d4
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.UserPersonalInformation' with unique index 'IX_UserPersonalInformation_UserId'. The duplicate key value is (46a067de-64de-41fa-b934-a4eee884c128).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:73578149-445c-4938-9089-fff4d76ef8d4
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-07-18 16:46:17.190 +05:30 [ERR] Unhandled Exception for Request CreateUserPersonalCommand {"UserId":"46a067de-64de-41fa-b934-a4eee884c128","ProfessionId":3,"Address":"sdfdsf","MaritalStatus":"Married","FatherName":"efgdfgdg","SpouseName":"gdfgdfg","AnniversaryDate":"2000-07-18T11:11:55.7220000Z","FamilyDetails":"vfdgdfgdfg","PreviousDesignation":"gdfgdg","PreviousCompanyName":"fgdgdg","PreviousJobDescription":"fsdfsfs","ISTCNickName":"sdfdsfsdf","ISTCFriend":"dsfdsfsd","ISTCAbout":"sdfsdfsd","Comments":"sdfsdfsd","AboutYourself":"sdfsdfsd","WhatsappNumber":"0000000000","MembershipType":"dsfsfsdfsdffsd","Designation":"dsfgdfgdfgdf","ContactNumber":"1234567654","FromDate":"2000-07-18T11:11:55.7220000Z","ToDate":"2024-07-18T11:11:55.7220000Z","EmailID":"bytrr@example.com","WorkProfile":"dfgdfgd","CollegeName":"sdfsdfsd","Degree":"dfsdfsf","Skills":"sdfsf","JoiningYear":"2024-07-18T11:11:55.7220000Z","ExpectedComplitionYear":"2024-07-18T11:11:55.7220000Z","CompanyName":"dsfsfsd","CityId":6,"CompanyId":2003,"CompanyAddress":"fgdfgdf","CompanyPhoneNumber":"1111111111","CompanyEmailAddress":"camonnn@example.com","$type":"CreateUserPersonalCommand"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.UserPersonalInformation' with unique index 'IX_UserPersonalInformation_UserId'. The duplicate key value is (46a067de-64de-41fa-b934-a4eee884c128).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:73578149-445c-4938-9089-fff4d76ef8d4
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ISTCOSA.Infrastructure.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Infrastructure\Data\ApplicationDbContext.cs:line 33
+   at ISTCOSA.Infrastructure.Handlers.UserPersonalHandler.CreateUserPersonalCommandHandler.Handle(CreateUserPersonalCommand request, CancellationToken cancellationToken)
+   at ISTCOSA.Infrastructure.Handlers.UserPersonalHandler.CreateUserPersonalCommandHandler.Handle(CreateUserPersonalCommand request, CancellationToken cancellationToken)
+   at ISTCOSA.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+2024-07-18 16:47:07.125 +05:30 [WRN] Long Running Request: CreateLoginCommand (1214 milliseconds)   {"RollNumber":"20120007","Password":"Aman@1111","$type":"CreateLoginCommand"}
+2024-07-18 16:47:37.178 +05:30 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2024-07-18 16:47:37.191 +05:30 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2024-07-18 16:47:37.208 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'ISTCOSA.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.UserPersonalInformation' with unique index 'IX_UserPersonalInformation_UserId'. The duplicate key value is (a56122a6-901d-43d1-9d88-0739a67fb6ec).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:73578149-445c-4938-9089-fff4d76ef8d4
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.UserPersonalInformation' with unique index 'IX_UserPersonalInformation_UserId'. The duplicate key value is (a56122a6-901d-43d1-9d88-0739a67fb6ec).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:73578149-445c-4938-9089-fff4d76ef8d4
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-07-18 16:47:37.512 +05:30 [ERR] Unhandled Exception for Request CreateUserPersonalCommand {"UserId":"a56122a6-901d-43d1-9d88-0739a67fb6ec","ProfessionId":3,"Address":"sdfdsf","MaritalStatus":"Married","FatherName":"efgdfgdg","SpouseName":"gdfgdfg","AnniversaryDate":"2000-07-18T11:11:55.7220000Z","FamilyDetails":"vfdgdfgdfg","PreviousDesignation":"gdfgdg","PreviousCompanyName":"fgdgdg","PreviousJobDescription":"fsdfsfs","ISTCNickName":"sdfdsfsdf","ISTCFriend":"dsfdsfsd","ISTCAbout":"sdfsdfsd","Comments":"sdfsdfsd","AboutYourself":"sdfsdfsd","WhatsappNumber":"0000000000","MembershipType":"dsfsfsdfsdffsd","Designation":"dsfgdfgdfgdf","ContactNumber":"1234567654","FromDate":"2000-07-18T11:11:55.7220000Z","ToDate":"2024-07-18T11:11:55.7220000Z","EmailID":"bytrr@example.com","WorkProfile":"dfgdfgd","CollegeName":"sdfsdfsd","Degree":"dfsdfsf","Skills":"sdfsf","JoiningYear":"2024-07-18T11:11:55.7220000Z","ExpectedComplitionYear":"2024-07-18T11:11:55.7220000Z","CompanyName":"dsfsfsd","CityId":6,"CompanyId":2003,"CompanyAddress":"fgdfgdf","CompanyPhoneNumber":"1111111111","CompanyEmailAddress":"camonnn@example.com","$type":"CreateUserPersonalCommand"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.UserPersonalInformation' with unique index 'IX_UserPersonalInformation_UserId'. The duplicate key value is (a56122a6-901d-43d1-9d88-0739a67fb6ec).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:73578149-445c-4938-9089-fff4d76ef8d4
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ISTCOSA.Infrastructure.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\ISTCOSA ne\istcosa\ISTCOSA.Infrastructure\Data\ApplicationDbContext.cs:line 33
+   at ISTCOSA.Infrastructure.Handlers.UserPersonalHandler.CreateUserPersonalCommandHandler.Handle(CreateUserPersonalCommand request, CancellationToken cancellationToken)
+   at ISTCOSA.Infrastructure.Handlers.UserPersonalHandler.CreateUserPersonalCommandHandler.Handle(CreateUserPersonalCommand request, CancellationToken cancellationToken)
+   at ISTCOSA.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+2024-07-18 16:50:27.699 +05:30 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2024-07-18 16:50:36.426 +05:30 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2024-07-18 16:50:42.629 +05:30 [WRN] Long Running Request: CreateUserPersonalCommand (39399 milliseconds)   {"UserId":"63df84d3-5d29-4f40-a044-a4001e9433a4","ProfessionId":3,"Address":"sdfdsf","MaritalStatus":"Married","FatherName":"efgdfgdg","SpouseName":"gdfgdfg","AnniversaryDate":"2000-07-18T11:11:55.7220000Z","FamilyDetails":"vfdgdfgdfg","PreviousDesignation":"gdfgdg","PreviousCompanyName":"fgdgdg","PreviousJobDescription":"fsdfsfs","ISTCNickName":"sdfdsfsdf","ISTCFriend":"dsfdsfsd","ISTCAbout":"sdfsdfsd","Comments":"sdfsdfsd","AboutYourself":"sdfsdfsd","WhatsappNumber":"0000000000","MembershipType":"dsfsfsdfsdffsd","Designation":"dsfgdfgdfgdf","ContactNumber":"1234567654","FromDate":"2000-07-18T11:11:55.7220000Z","ToDate":"2024-07-18T11:11:55.7220000Z","EmailID":"bytrr@example.com","WorkProfile":"dfgdfgd","CollegeName":"sdfsdfsd","Degree":"dfsdfsf","Skills":"sdfsf","JoiningYear":"2024-07-18T11:11:55.7220000Z","ExpectedComplitionYear":"2024-07-18T11:11:55.7220000Z","CompanyName":"dsfsfsd","CityId":6,"CompanyId":2003,"CompanyAddress":"fgdfgdf","CompanyPhoneNumber":"1111111111","CompanyEmailAddress":"camonnn@example.com","$type":"CreateUserPersonalCommand"}
+2024-07-18 16:57:53.561 +05:30 [WRN] Long Running Request: GetAllUserRegister (668 milliseconds)   {"ISTCNickName":null,"ISTCFriend":null,"ISTCAbout":null,"Comments":null,"AboutYourself":null,"Id":0,"UserId":null,"BatchId":0,"BatchNumber":0,"RollNumberId":0,"RollNumbers":0,"CityId":0,"StateId":0,"CountryId":0,"CityName":null,"StateName":null,"CountryName":null,"FullName":null,"Gender":null,"Email":null,"Password":null,"PhoneNumber":null,"DateOfBirth":null,"Images":null,"ImagePath":null,"PinCode":null,"Address":null,"UserName":null,"$type":"GetAllUserRegister"}

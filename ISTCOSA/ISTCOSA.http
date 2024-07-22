@@ -1,0 +1,6 @@
+@ISTCOSA_HostAddress = http://localhost:5023
+
+GET {{ISTCOSA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
